@@ -40,10 +40,10 @@ console.log("8 => ", "2" == "12");
 //  output =>>>> false
 
 console.log("9 => ", 7 > 2 > 3 < 9);
-//  output =>>>> true beacuse it will check one by one from beginning
+//  output =>>>> true beacuse it will check one by one from beginning (7 > 2 => true (1) then next 1 > 3 => true (1) => then next 1 < 9 => true)
 
 console.log("10 => ", 1 > 2 < 3);
-//  output =>>>> true beacuse it will check one by one from beginning
+//  output =>>>> true beacuse it will check one by one from beginning (1 > 2 => false (0) then next 0 < 3 => true)
 
 console.log("11 => ", 9 > 2 > 9 < 8 < 9);
 //  output =>>>> true beacuse it will check one by one from beginning
