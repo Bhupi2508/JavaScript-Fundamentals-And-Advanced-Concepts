@@ -40,13 +40,13 @@ console.log("8 => ", "2" == "12");
 //  output =>>>> false
 
 console.log("9 => ", 7 > 2 > 3 < 9);
-//  output =>>>> true (confusion)
+//  output =>>>> true beacuse it will check one by one from beginning
 
 console.log("10 => ", 1 > 2 < 3);
-//  output =>>>> true (confusion)
+//  output =>>>> true beacuse it will check one by one from beginning
 
 console.log("11 => ", 9 > 2 > 9 < 8 < 9);
-//  output =>>>> true (confusion)
+//  output =>>>> true beacuse it will check one by one from beginning
 
 console.log("12 => ", 9 > 8 > 7 > 9 > 5);
-//  output =>>>> false (confusion)
+//  output =>>>> false beacuse it will check one by one from beginning
