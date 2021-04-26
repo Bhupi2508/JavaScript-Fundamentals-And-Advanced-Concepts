@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Bhupi2508/JavaScript-Basic-Questions#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "http": "0.0.1-security"
+    "http": "0.0.1-security",
+    "https": "^1.0.0"
   }
 }
