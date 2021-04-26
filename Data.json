@@ -1,0 +1,11 @@
+{
+    "name": "Tyson",
+    "age": 24,
+    "salary": 5000000000,
+    "Hobbies": [
+        "Playing Cricket",
+        "Playing Chess",
+        "Youtube Videos",
+        "Watching Comedy Videos"
+    ]
+}
